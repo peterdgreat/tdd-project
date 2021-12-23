@@ -1,7 +1,7 @@
 require './solver'
 
 describe Solver do
-  context 'Testing Solver class' do
+  context 'Testing Solver class' do # rubocop:disable Metrics/BlockLength
     it 'should initialize an instance of Solver' do
       solver = Solver.new
       expect(solver).to be_a Solver
@@ -43,5 +43,5 @@ describe Solver do
       result = solver.fizzbuzz(7)
       expect(result).to eq('7')
     end
-  end
+  end 
 end
