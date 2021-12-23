@@ -41,7 +41,7 @@ describe Solver do
     it 'should call fizzbuzz method passing a 7 and return 7' do
       solver = Solver.new
       result = solver.fizzbuzz(7)
-      expect(result).to eq(7)
+      expect(result).to eq('7')
     end
   end
 end
